@@ -1,0 +1,676 @@
+
+
+.inder-regular {
+  font-family: "Inder", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* relative styls */
+
+
+body{
+    background-color: #190D33;
+    color: white;
+}
+
+body p{
+    color: #ffffff;
+}
+
+/* navber styls */
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    width: 218px;
+    justify-content: space-around;
+}
+
+.linear-1{
+ /* background-image: linear-gradient(to top, red, yellow); */
+ /* color: #D000FF; */
+ /* ai genareted */
+ background: linear-gradient(to right, #D000FF, #FF00A8);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.nav-item{
+    list-style: none;
+    
+}
+.nav-item a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-btn{
+     background-image: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+     color: #ffffff;
+     width: 135px;
+     height: 44px;
+     border-radius: 10000px;
+     font-size: 1.15rem;
+}
+
+/* header hero section */
+
+ .benner-style{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0px auto;
+    max-width: 1440px;
+    background-image: url(assets/hero-bg.png);
+    background-size: 100% 100%;
+ }
+
+ .hero-img{
+    height: 200px;
+    width: 150px;
+    margin-top:70px ;
+    
+ }
+
+ .heros-imeges{
+    margin: 48px auto;
+    background-image: url(assets/hero-circle.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    justify-content: center;
+    height: 350px;
+    width: 350px;
+
+
+ }
+
+ .header-taitel{
+    font-size: 3.75rem;
+    font-weight: 800;
+    height: 73px;
+    width: 550px;
+ }
+
+ .lison-btn{
+    background-image: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+    height: 44px;
+    width: 201px;
+    border: none;
+    border-radius: 10000px;
+    color: #ffffff;
+    padding: 12px 20px;
+ }
+
+ .subcribe-btn{
+    height: 44px;
+    width: 147px;
+    background-color: #190D33;
+    color: #00FF88;
+    border: 1px solid #00FF88;
+    border-radius: 10000px;
+    margin-left: 6px;
+ }
+
+
+ /* protcast styles */
+
+
+ .protcast-containar{
+    text-align: center;
+    margin: 60px auto;
+    height: 222px;
+    width: 1200px;
+ }
+
+ .protcast-taitel{
+    font-size: 3rem;
+    font-weight: 700;
+ }
+
+ .protcast-details{
+    font-size: 1rem;
+    justify-items: center;
+    margin: 20px auto;
+ }
+
+ .reveinew-containar{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 120px 100px;
+    justify-items: center;
+    gap: 80px;
+ }
+
+ .reveinew-taitel{
+    color: #00FF88;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    text-align: center;
+ }
+
+ .reveinews{
+   height: 94px;
+   width: 240px;
+   justify-content: center;
+   
+   
+ }
+
+ .reveinew-details{
+    color: #ffffff;
+    text-align: center;
+ }
+
+ /* oprchunitis styles */
+
+ .oprchunitis-taitel{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: -90px;
+ }
+
+ .oprchunitis-containar{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+    margin: 120px 200px;
+    height: 783px;
+    
+ }
+
+.card-img{
+    height: 40px;
+    width: 40px;
+ }
+
+ .oprchunitis-card-1{
+    grid-row: span 2;
+    width: 380px;
+    height: 480px;
+    background-color: #2A0F4D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+ }
+
+ .oprchunitis-card-1 div{
+    margin: 100px 20px;
+ }
+
+ .oprchunitis-card-2, .oprchunitis-card-3,  .oprchunitis-card-4{
+    grid-row: span 1;
+    grid-column: span 2;
+    background-color: #2A0F4D;
+    padding: 40px;
+    height: 140px;
+    border-radius: 40px;
+ }
+
+ .oprchunitis-card-4{
+    grid-row: span 1;
+    grid-column: span 2;
+    background-color: #2A0F4D;
+    height: 200px;
+ }
+
+ .oprchunitis-card-5{
+    background-color: #2A0F4D;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+ }
+
+ .oprchunitis-card-5 div{
+ font-size: 1rem;
+ padding: 30px;
+    
+ }
+
+ /* episode styles */
+
+ .episodes-section{
+    margin: 0 auto;
+    align-items: center;
+  
+    
+ }
+ .section-taitel{
+    width: 1200px;
+    height: 58px;
+    margin: 0 auto ;
+    margin-bottom: 40px;
+    text-align: center;
+
+ }
+
+ .episodes-containar{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   width: 1200px;
+  
+   justify-items: center;
+   margin: 0 auto;
+   gap: 20px;
+    
+ }
+
+ .episodes{
+    height: 460px;
+    width: 380px;
+    background-color: #2A0F4D;
+    border-radius: 10px;
+ }
+
+ .episode-taitel{
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 332px;
+ }
+ 
+ .episode-details{
+    color: #ffffff;
+    width: 332px;
+    height: 72px;
+    margin-bottom: 0;
+ }
+ .details-containar{
+    padding: 24px;
+ }
+ .time-containar{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 0px;
+    gap: 10px;
+ }
+ .episode-time{
+    width: 20px;
+    height: 20px;
+ }
+
+ /* host styles */
+
+ .host{
+   margin: 120px auto;
+ }
+ .section-taitel{
+   font-weight: 700;
+   font-size: 3rem;
+ }
+
+.host-details-containar{
+   display: flex;
+   gap: 24px;
+   width: 1100px;
+   height: 230px;
+   align-items: center;
+   justify-items: center;
+   background-color: #2A0F4D;
+   margin: 0 auto;
+   padding: 24px;
+   padding-left: 80px;
+   border-radius: 40px;
+}
+
+.host-profile{
+   width: 896px;
+   height: 183px;
+   color: #ffffff;
+}
+ 
+.social-midiya-img{
+   display: flex;
+   gap: 8px;
+  justify-content: flex-start;
+  text-align: center;
+  height: 20px;
+  width: 184px;
+}
+
+.social-midiya-img img{
+   height: 20px;
+   width: 20px;
+   border: 1px solid #533C72;
+   border-radius: 100%;
+   
+}
+
+/* footer style */
+footer{
+   background-image: url(assets/footer-bg.png);
+   background-size: 100% 100%;
+   height: 345px;
+   max-width: 1400px;
+   padding: 120px;
+}
+
+.footer-taitel{
+   font-size: 5rem;
+   margin-bottom: 20px;
+}
+
+.footer-social-link{
+   /* display: grid;
+   grid-template-columns: repeat(4, 1fr); */
+   width: 490px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer-containar{
+   justify-items: center;
+   max-width: 1360px;
+   height: 100px;
+}
+.imges-fs{
+   display: flex;
+   gap: 8px;
+   align-items: center;
+}
+.imges-fs img{
+   width: 24px;
+   height: 24px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .nav-btn, .nav-item {
+        display: none;
+    }
+    
+    .navbar{
+        justify-content: space-around;  
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+        }
+
+        .benner-style{
+            background-size: 100% 100%;
+        }
+
+        .hero-img{
+            height: 150px;
+            width: 100px;
+            margin-top:50px ;
+            justify-items: center;
+            padding-right: 90px;
+            
+        }
+
+        .heros-imeges{
+            background-size: 70% 70%;
+            margin-left: 150px;
+             justify-items: center;
+            
+            
+        }
+
+        .header-details{
+            width: 400px;
+            height: 50px;
+            margin: 30px auto;
+        }
+
+         .protcast-containar{
+            width: 90%;
+            margin: 100px auto;
+         }
+        
+         .reveinew-containar{
+            grid-template-columns: repeat(2, 1fr);
+            margin: 50px auto;
+            gap: 10px;
+            margin-top: 150px;
+         }
+
+         .reveinews{
+            width: 180px;
+            height: 84px;
+         }
+
+        .oprchunitis-containar{
+            grid-template-columns: none;
+           margin: 0 auto;
+         }
+         .oprchunitis-card-1,
+         .oprchunitis-card-2,
+         .oprchunitis-card-3,
+         .oprchunitis-card-4,
+         .oprchunitis-card-5 {
+            margin: 0 auto;
+            justify-items: center;
+         }
+
+         .oprchunitis-card-1,
+         .oprchunitis-card-5{
+            margin: 10 auto;
+             height: 287px;
+            width: 400px;
+            margin-left: 15px;
+         }
+
+         /* .oprchunitis-card-5{
+            width: 100px;
+         } */
+
+         .oprchunitis-card-2,
+         .oprchunitis-card-3,
+         .oprchunitis-card-4{
+            margin: 0 auto;
+             height: 200px;
+            width: 295px;
+         }
+
+         .oprchunitis-taitel{
+            margin: 50px auto;
+            margin-top: 120px;
+         }
+         .oprchunitis-section{
+            justify-items: center;
+         }
+
+         .episodes-section{
+            margin: 0 auto;
+            margin-top: 800px;
+            width: 300px;
+            width: 100%;
+         }
+         .episodes-containar{
+            grid-template-columns: none;
+            margin: 0 auto;
+            width: 90%;
+
+         }
+         .section-taitel{
+            width: 100%;
+         }
+
+         .host-details-containar{
+            flex-direction: column;
+            width: 400px;
+            height: 500px;
+            margin: 0 auto;
+            gap: 0;
+            padding: 10px;
+
+         }
+         .host-profile{
+            width: 352px;
+            height: 269px;
+            padding: 24px;
+            justify-items: center;
+            text-align: center;
+            
+
+         }
+         .host-details{
+            width: 352px;
+            height: 168px;
+            margin-bottom: 0;
+         }
+         .social-midiya-img{
+            margin: 0 auto;
+            margin-top: -10px;
+         }
+
+         .footer-social-link{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            width: 245px;
+            
+         }
+         footer{
+            background-size: 100% 100%;
+            height: 250px;
+            width: 440px;
+            padding: 0;
+         }
+         .footer-containar{
+            height: 168px;
+            width: 400px;
+            padding: 0;
+            font-size: 0.8rem;
+            margin: 40px auto;
+         }
+         .footer-taitel{
+            font-size: 3rem;
+            margin-bottom: 0;
+            padding-top: 40px;
+         }
+}
+
+
+
+@media screen and (min-width:577px) and (max-width:992px){
+.navbar{
+    width: 100%;
+}
+     .mobile-btn{
+            display: none;
+        }
+
+        .protcast-containar{
+            width: 90%;
+            margin: 100px auto;
+         }
+        
+         .reveinew-containar{
+            grid-template-columns: repeat(2, 1fr);
+            margin: 50px auto;
+            gap: 10px;
+            margin-top: 100px;
+         }
+
+         .reveinews{
+            width: 180px;
+            height: 84px;
+         }
+        .oprchunitis-containar{
+            grid-template-columns: none;
+           margin: 0 auto;
+         }
+         .oprchunitis-card-1,
+         .oprchunitis-card-2,
+         .oprchunitis-card-3,
+         .oprchunitis-card-4,
+         .oprchunitis-card-5 {
+            margin: 0 auto;
+            justify-items: center;
+         }
+
+         .oprchunitis-card-1,
+         .oprchunitis-card-5{
+            margin: 10 auto;
+             height: 287px;
+            width: 400px;
+            margin-left: 15px;
+         }
+
+         /* .oprchunitis-card-5{
+            width: 100px;
+         } */
+
+         .oprchunitis-card-2,
+         .oprchunitis-card-3,
+         .oprchunitis-card-4{
+            margin: 0 auto;
+             height: 200px;
+            width: 295px;
+         }
+
+         .oprchunitis-taitel{
+            margin: 50px auto;
+            margin-top: 120px;
+         }
+         .oprchunitis-section{
+            justify-items: center;
+         }
+
+          .episodes-section{
+            margin: 0 auto;
+            margin-top: 800px;
+            width: 300px;
+            width: 100%;
+         }
+         .episodes-containar{
+            grid-template-columns: none;
+            margin: 0 auto;
+            width: 90%;
+
+         }
+         .section-taitel{
+            width: 100%;
+         }
+
+         .host-details-containar{
+            flex-direction: column;
+            width: 90%;
+            height: 500px;
+            margin: 0 auto;
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+         }
+         .host-profile{
+            width: 50%;
+            margin: 0 auto;
+            padding: 10px;
+            justify-items: center;
+         }
+         .host-details{
+            width: 400px;
+         
+         }
+         .social-midiya-img{
+            justify-items: center;
+         }
+         
+}
+
+
+@media screen and (min-width:993px) and (max-width:1440px){
+        .mobile-btn{
+            display: none;
+        }
+        
+}
